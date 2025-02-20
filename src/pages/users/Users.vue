@@ -78,6 +78,7 @@ const handleClick = () => {
 </script>
 <template>
   <div>
+    {{ 123 }}
     <h1 class="text-xl font-normal">List users</h1>
     <div class="my-4 flex justify-between">
       <UserToolbar :table="table" />
