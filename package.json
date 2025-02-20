@@ -57,5 +57,11 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
     "vue-tsc": "^2.0.24"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
